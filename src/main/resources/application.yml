@@ -1,0 +1,7 @@
+spring:
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+#          issuer-uri: http://openidc/auth/realms/Testrealm
+          jwk-set-uri: http://openidc/auth/realms/Testrealm/protocol/openid-connect/certs
